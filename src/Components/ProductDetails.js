@@ -2,7 +2,7 @@
 import React ,{useState}   from "react"
 import classes from './ProductDetails.module.css';
 
-
+//fuyf
 const ProductDetails = (props) =>{
    
     //color options  
