@@ -5,7 +5,8 @@ import classes from './ProductDetails.module.css';
 //fuyf
 const ProductDetails = (props) =>{
    
-    //color options  
+    //color options    choose
+
        const [x,setx]= useState(0);
        const[x1,setx1]=useState(0);
 
