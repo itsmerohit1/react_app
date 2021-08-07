@@ -1,0 +1,151 @@
+
+body{
+    font-family: 'Source Sans Pro' , sans-serif;
+    background-image: 'https://wallpapercave.com/wp/lg6spDq.jpg';
+}
+
+.Topbar{
+background-color :rgb(0, 255, 255);
+padding: 24px 48px 12px;
+text-align: center;
+position:fixed;
+top: 0;
+left: 0;
+width: 100%;
+
+ }
+ .Topbar > img{
+     width:100px;
+   
+     
+ }
+
+ .MainContainer{
+    background-image: 'https://wallpapercave.com/wp/lg6spDq.jpg';
+padding: 4% 12%;
+margin-top: 12px;
+width: 100%;
+box-sizing: border-box;
+display: -moz-grid-line;
+align-items: center;
+
+
+ }
+
+ .ProductPreview{
+width:100%
+ }
+
+ .ProductPreview >img{
+    width:50%;
+   
+     }
+     
+ .ProductData{
+     width:50%;   
+ }
+ .ProductTitle{
+     
+ font-size: 38px;
+ font-weight: 600px;
+ }
+ .ProductDescription{
+     
+     font-size: 25px;
+     font-weight: 300;
+     color: rgb(59, 9, 9);
+     background-color: aqua;
+ }
+ .ProductImage{
+    width:100%;
+    max-width: 100px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    margin-right: 12px;
+   cursor: pointer;
+    
+ }
+ .SelectedProductImage{
+    width:100%;
+    max-width: 100px;
+    border: 2px solid red;
+    border-radius: 8px;
+    margin-right: 12px;
+ }
+
+ .SectionHeading{
+ font-size: 28px;
+ margin-bottom: 8px;
+ }
+
+ .FeatureItem{
+     font-size: 28px;
+     color:  rgb(19, 15, 15);
+     background-color:rgb(173, 223, 164);
+     padding: 12px 24px;
+     margin: 4px;
+    
+     border-radius: 10px;
+     text-align: center;
+     cursor: pointer;
+     
+   
+ }
+ .BuyNow{
+    font-size: 28px;
+    color:  white;
+    background-color:rgb(45, 75, 197);
+    padding: 12px 24px;
+    margin: 10px;
+    border: 1cm;
+    border-radius: 10px;
+    text-align: center;
+ }
+ .SelectedFeatureItem{
+    color: white;
+    background-color:green;
+ }
+ .FeatureData{
+     position: absolute;
+     top: 50%;
+     left: 31%;
+     transform: translate(-50%, -50%);
+     color: rgb(219, 206, 206);
+     font-size: 48px;
+     font-weight: 600;
+ }
+ .TimeSection{
+    position: absolute;
+    top: 50%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+    color: rgb(219, 206, 206);
+    font-size: 48px;
+    font-weight: 600;
+ }
+ .HeartbeatSection{
+    position: absolute;
+    top: 50%;
+    left: 31%;
+    transform: translate(-50%, -50%);
+    color: rgb(219, 206, 206);
+    font-size: 40px;
+    font-weight: 600;
+    
+    
+   
+ }
+
+ .HeartbeatSection >i{
+
+     color: rgb(207, 26, 26);
+      
+
+ }
+
+ .HeartbeatSection >p{
+    color:rgb(218, 197, 185);
+   
+}
+ 
+ 

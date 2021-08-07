@@ -1,0 +1,123 @@
+.ProductPreview{
+    width:100%;
+    /* postion:absolute; */
+     }
+    
+     .ProductPreview >img{
+        width:100%;
+       
+         }
+         
+     .ProductData{
+         width:50%;   
+     }
+     .ProductTitle{
+     font-size: 38px;
+     font-weight: 600px;
+     }
+     .ProductDescription{
+         font-size: 25px;
+         font-weight: 300;
+         color: rgb(59, 9, 9);
+     }
+     .ProductImage{
+        width:100%;
+        max-width: 100px;
+        border: 2px solid transparent;
+        border-radius: 8px;
+        margin-right: 12px;
+       cursor: pointer;
+        
+     }
+     .SelectedProductImage{
+        width:100%;
+        max-width: 100px;
+        border: 2px solid red;
+        border-radius: 8px;
+        margin-right: 12px;
+     }
+    
+     .SectionHeading{
+     font-size: 28px;
+     margin-bottom: 8px;
+     }
+    
+     .FeatureItem{
+         font-size: 28px;
+         color:  rgb(19, 15, 15);
+         background-color:rgb(68, 190, 47);
+         padding: 12px 24px;
+         margin: 4px;
+        
+         border-radius: 10px;
+         text-align: center;
+         cursor: pointer;
+         
+       
+     }
+     .BuyNow{
+        font-size: 28px;
+        color:  white;
+        background-color:rgb(45, 75, 197);
+        padding: 12px 24px;
+        margin: 10px;
+        border: 1cm;
+        border-radius: 10px;
+        text-align: center;
+     }
+     .SelectedFeatureItem{
+        color: white;
+        background-color:green;
+     }
+     .FeatureData{
+         position: absolute;
+         top: 50%;
+         left: 31%;
+         transform: translate(-50%, -50%);
+         color: rgb(219, 206, 206);
+         font-size: 48px;
+         font-weight: 600;
+     }
+     .TimeSection{
+      position: absolute;
+        top: 50%;
+        left: 28%;
+        /* transform: translate(-50%, -50%); */
+        color: rgb(216, 21, 21);
+        font-size: 48px;
+        font-weight: 600;
+     }
+     .HeartbeatSection{
+        position: absolute;
+        top: 48%;
+        left: 29%;
+        /* transform: translate(-50%, -50%); */
+        color: rgb(219, 206, 206);
+        font-size: 60px;
+        font-weight: 600;
+        
+       
+     }
+    
+     .HeartbeatSection >i{
+         color: rgb(228, 52, 8);
+         animation: beat 1s infinite;
+     }
+    
+     .HeartbeatSection >p{
+        color:rgb(241, 225, 236);
+        size: 100px;
+     }
+
+@keyframes beat{
+   0%{
+       transform: scale(1,1);
+
+   }
+   50%{
+       transform: scale(1.2,1.2);
+   }
+   100%{
+       transform: scale(1,1);
+   }
+}
